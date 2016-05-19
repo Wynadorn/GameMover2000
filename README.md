@@ -1,4 +1,4 @@
-# GameMover2000
+# GameMover 2000
 A utility to easily create system directory links between two locations.
 
 I mainly use it to transfer games between my SSD and Raid0 volume.
