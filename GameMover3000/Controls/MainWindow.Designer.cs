@@ -1,4 +1,4 @@
-﻿namespace GameMover3000
+﻿namespace GameMover3000.Controls
 {
     partial class MainWindow
     {
@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.directoryView2 = new GameMover3000.DirectoryView();
-            this.directoryView1 = new GameMover3000.DirectoryView();
+            this.directoryView2 = new GameMover3000.Controls.DirectoryView();
+            this.directoryView1 = new GameMover3000.Controls.DirectoryView();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,8 +74,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(671, 552);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainWindow";
-            this.Text = "Form1";
+            this.Text = "GameMover 3000";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

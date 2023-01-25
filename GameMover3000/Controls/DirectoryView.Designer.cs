@@ -1,4 +1,4 @@
-﻿namespace GameMover3000
+﻿namespace GameMover3000.Controls
 {
     partial class DirectoryView
     {

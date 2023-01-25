@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GameMover3000
+namespace GameMover3000.Controls
 {
     public partial class DirectoryView : UserControl
     {

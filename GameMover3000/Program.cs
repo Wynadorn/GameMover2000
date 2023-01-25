@@ -1,3 +1,5 @@
+using GameMover3000.Controls;
+
 namespace GameMover3000
 {
     internal static class Program
